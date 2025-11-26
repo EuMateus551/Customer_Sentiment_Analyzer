@@ -28,6 +28,8 @@ def get_client() -> Client:
     key = get_api_key()
     return Client(api_key=key)
 
+print("Chave lida:", os.getenv("GEMINI_API_KEY"))
+
 @app.get("/")
 def root():
     return {"message": "API funcionando"}
@@ -158,5 +160,3 @@ def analisar_csv(file: UploadFile= File(...)):
         return {"total_analisados": len(resultados), "resultados_exemplo": resultados[:5]}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro ao analisar CSV: {e}")
-
-print("Chave lida:", os.getenv("GEMINI_API_KEY"))

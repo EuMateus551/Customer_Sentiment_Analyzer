@@ -1,0 +1,15 @@
+id,comentario,categoria,nota,data
+1,O atendimento do suporte foi péssimo.,atendimento,5,2025-11-02
+2,Chegou tudo certinho e quente.,entrega,3,2025-11-03
+3,A carne veio crua.,qualidade,3,2025-11-08
+4,Chegou tudo certinho e quente.,entrega,4,2025-10-16
+5,Veio tudo queimado.,qualidade,2,2025-11-16
+6,Equipe prestativa.,atendimento,1,2025-07-15
+7,O motoboy não encontrou o endereço.,entrega,1,2025-08-20
+8,Chegou tudo certinho e quente.,entrega,4,2025-06-07
+9,A entrega foi super rápida.,entrega,2,2025-08-28
+"10,""Muito saboroso, recomendo."",qualidade,4,2025-07-16"
+11,Resolveram meu problema rapidamente.,atendimento,5,2025-09-25
+12,Atendimento confuso.,atendimento,1,2025-07-26
+13,A comida chegou fria.,entrega,2,2025-10-20
+14,O motoboy não encontrou o endereço.,entrega,2,2025-06-10
